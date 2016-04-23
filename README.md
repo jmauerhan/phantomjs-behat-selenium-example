@@ -66,8 +66,6 @@ Both CircleCI and Travis include PhantomJS, so there's no need to install or upd
 There's a one line script to start PHP's built-in server in this repository, so I'm starting that in the background in the ci build script. We'll also need to start the PhantomJS webdriver in the background. Then just run the Behat tests
 
 ### CircleCI
-** circle.yml**
-
 ```
 machine:
   php:
