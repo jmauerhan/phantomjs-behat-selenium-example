@@ -1,0 +1,12 @@
+machine:
+  php:
+    version: 7.0.4
+
+test:
+  pre:
+    - sh start-server.sh:
+        background: true
+    - phantomjs --webdriver=4444:
+        background: true
+  override:
+    - vendor/bin/behat -f junit -o $CIRCLE_TEST_REPORTS -f pretty -o std

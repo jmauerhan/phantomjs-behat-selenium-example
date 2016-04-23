@@ -1,0 +1,16 @@
+default:
+  autoload:
+    '': Features/Bootstrap
+  suites:
+    default:
+      contexts:
+        - Features\Bootstrap\FeatureContext
+  extensions:
+    Behat\MinkExtension:
+      base_url:  'http://localhost:8000'
+      sessions:
+        default:
+          goutte: ~
+        javascript:
+          selenium2:
+            browser: phantomjs

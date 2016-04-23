@@ -1,0 +1,11 @@
+language: php
+php:
+  - '7.0'
+
+before_script:
+  - composer install
+  - "sh start-server.sh > /dev/null &"
+  - "phantomjs --webdriver=4444 > /dev/null &"
+
+script:
+  - vendor/bin/behat

@@ -1,0 +1,26 @@
+{
+    "name": "jmauerhan/behat-phantomjs-example",
+    "description": "Example of how to use PhantomJS with Behat",
+    "type": "project",
+    "require": {
+        "php":">=5.4.0",
+        "behat/behat": "^3.1",
+        "behat/mink": "^1.7",
+        "behat/mink-extension": "^2.2",
+        "behat/mink-selenium2-driver": "^1.3",
+        "behat/mink-goutte-driver": "^1.2",
+        "beberlei/assert": "^2.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jessica Mauerhan",
+            "email": "jessicamauerhan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Features\\": "features/"
+        }
+    }
+}
