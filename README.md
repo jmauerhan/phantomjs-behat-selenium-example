@@ -1,6 +1,8 @@
 # Behat & PhantomJS Example
 An example of using the Behat Selenium2 Mink Driver to power PhantomJS, and integrate with both CircleCI and TravisCI
 
+[![Build Status](https://travis-ci.org/jmauerhan/phantomjs-behat-selenium-example.svg?branch=master)](https://travis-ci.org/jmauerhan/phantomjs-behat-selenium-example) [![Circle CI](https://circleci.com/gh/jmauerhan/phantomjs-behat-selenium-example.svg?style=shield)](https://circleci.com/gh/jmauerhan/phantomjs-behat-selenium-example)
+
 ## Steps
 
 ### Install Dependencies
